@@ -5,4 +5,6 @@
 
 This extension adds BNF and EBNF syntax highlighting to Visual Studio Code.
 
+Files with the extension `.bnf` or `.ebnf` will automatically be highlighting.
+
 ![Syntax Highlighting](screenshot.png)
