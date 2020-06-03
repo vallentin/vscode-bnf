@@ -63,10 +63,10 @@
 		},
 		"symbols": {
 			"patterns": [
+				{ "include": "#comment" },
 				{ "include": "#string" },
 				{ "include": "#symbol" },
-				{ "include": "#operators" },
-				{ "include": "#comment" }
+				{ "include": "#operators" }
 			]
 		},
 		"indented-symbols": {
