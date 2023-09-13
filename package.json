@@ -45,6 +45,16 @@
 				"language": "bnf",
 				"scopeName": "source.bnf",
 				"path": "./syntaxes/bnf.tmLanguage.json"
+			},
+			{
+				"scopeName": "source.markdown.codeblock.bnf",
+				"path": "./syntaxes/bnf.markdown.tmGrammar.json",
+				"injectTo": [
+					"text.html.markdown"
+				],
+				"embeddedLanguages": {
+					"meta.embedded.block.bnf": "bnf"
+				}
 			}
 		]
 	}
